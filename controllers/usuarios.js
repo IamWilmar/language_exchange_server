@@ -1,6 +1,6 @@
 const { response } = require('express');
 const Usuario = require('../models/usuario');
-
+/**Test tocheck commit user  */
 const getUsuarios = async(req, res = response) => {
 
     const desde = Number(req.query.desde) || 0;
